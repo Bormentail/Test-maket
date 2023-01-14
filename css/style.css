@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 29px 0 111px 0;
+    background-color: #F6F2F2;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 101px auto;
+    width: 80%;
+    min-width: 320px;
+    height: 89px;
+    align-items: center;
+    background-color: #000000;
+}
+
+.header__menu-item {
+    display: inline;
+    padding: 35px 1vw;
+    width: 150px;
+    height: 89px;
+    text-align: center;
+    transition: background-color 0.25s;
+}
+
+.header__menu-item:hover {
+    background: #FF2D2D;
+
+}
+
+.header__menu-item-text {
+    color: #E0E0E0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header__intro {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__column1 {
+    display: inline-block;
+    width: 50%;
+}
+
+.header__column1-H1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.header__column1-text {
+    margin: 30px 0 0 0;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+
+.header__column1-button {
+    margin: 60px 0 0 0;
+    padding: 10px;
+    width: 227px;
+    height: 40px;
+    text-align: center;
+    background: #FF2D2D;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.header__column1-button-text {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__column2 {
+    display: inline-block;
+    width: 50%;
+    margin-left: auto;
+}
+
+.header__column2-red {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF2D2D;;
+}
+
+.header__column2-red-white {
+    width: 70px;
+    height: 60px;
+    background-color: #ffe3be;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
